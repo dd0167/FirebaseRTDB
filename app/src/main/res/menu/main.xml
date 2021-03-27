@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Main menu" />
+    <item android:title="Student data" />
+    <item android:title="Vaccines data" />
+    <item android:title="Data display" />
+    <item android:title="Data sorting" />
+    <item android:title="Credits" />
+</menu>

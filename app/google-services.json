@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43021792785",
+    "project_id": "fir-rtdb-83f1a",
+    "storage_bucket": "fir-rtdb-83f1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43021792785:android:07e82a53b280a178d4e3b0",
+        "android_client_info": {
+          "package_name": "com.example.firebasertdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43021792785-iu73iiaj54r8kcbc5vehjqvn65e8atic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqlhExhAS-fy7nyY3m6M1gAjXrHw4DYeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43021792785-iu73iiaj54r8kcbc5vehjqvn65e8atic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
