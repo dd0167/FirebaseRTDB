@@ -24,6 +24,9 @@ import java.util.ArrayList;
 
 import static com.example.firebasertdb.FBref.refStudent;
 
+/**
+ * The type Vaccines data in.
+ */
 public class VaccinesDataIn extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     EditText et_place_v1;
@@ -167,6 +170,11 @@ public class VaccinesDataIn extends AppCompatActivity implements AdapterView.OnI
         pos=position;
     }
 
+    /**
+     * Vaccines datain.
+     *
+     * @param view the view
+     */
     public void vaccines_datain(View view) {
         if (text.equals("Student's Name"))
         {

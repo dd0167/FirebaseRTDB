@@ -22,6 +22,9 @@ import java.util.ArrayList;
 
 import static com.example.firebasertdb.FBref.refStudent;
 
+/**
+ * The type Sort data.
+ */
 public class SortData extends AppCompatActivity implements AdapterView.OnItemClickListener{
 
     ListView studentlist;
@@ -113,6 +116,11 @@ public class SortData extends AppCompatActivity implements AdapterView.OnItemCli
 
     }
 
+    /**
+     * Sort data by class.
+     *
+     * @param view the view
+     */
     public void sort_by_class(View view) {
         Query query=refStudent.orderByChild("stuClass");
         ValueEventListener stuListener=new ValueEventListener() {
@@ -144,6 +152,11 @@ public class SortData extends AppCompatActivity implements AdapterView.OnItemCli
         query.addValueEventListener(stuListener);
     }
 
+    /**
+     * Sort data by grade.
+     *
+     * @param view the view
+     */
     public void sort_by_grade(View view) {
         Query query=refStudent.orderByChild("stuGrade");
         ValueEventListener stuListener=new ValueEventListener() {
@@ -175,6 +188,11 @@ public class SortData extends AppCompatActivity implements AdapterView.OnItemCli
         query.addValueEventListener(stuListener);
     }
 
+    /**
+     * Sort data by can't get vaccine.
+     *
+     * @param view the view
+     */
     public void sort_by_cantgetvaccine(View view) {
         Query query=refStudent.orderByChild("studentID");
         ValueEventListener stuListener=new ValueEventListener() {
@@ -206,6 +224,11 @@ public class SortData extends AppCompatActivity implements AdapterView.OnItemCli
         query.addValueEventListener(stuListener);
     }
 
+    /**
+     * Sort data by can get vaccine.
+     *
+     * @param view the view
+     */
     public void sort_by_cangetvaccine(View view) {
         Query query=refStudent.orderByChild("studentID");
         ValueEventListener stuListener=new ValueEventListener() {

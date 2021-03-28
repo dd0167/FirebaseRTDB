@@ -22,6 +22,9 @@ import com.google.firebase.database.ValueEventListener;
 
 import static com.example.firebasertdb.FBref.refStudent;
 
+/**
+ * The type Student data in.
+ */
 public class StudentDataIn extends AppCompatActivity {
 
     EditText et_first_name;
@@ -71,6 +74,11 @@ public class StudentDataIn extends AppCompatActivity {
         }
     }
 
+    /**
+     * Data in.
+     *
+     * @param view the view
+     */
     public void data_in(View view) {
         String first_name, last_name, sgrade, sclass,sid,cgv;
         int igrade,iclass;

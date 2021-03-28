@@ -23,6 +23,9 @@ import java.util.ArrayList;
 
 import static com.example.firebasertdb.FBref.refStudent;
 
+/**
+ * The type Display data.
+ */
 public class DisplayData extends AppCompatActivity implements AdapterView.OnItemClickListener{
 
     ListView list_students;
@@ -162,6 +165,11 @@ public class DisplayData extends AppCompatActivity implements AdapterView.OnItem
         }
     }
 
+    /**
+     * Update student data.
+     *
+     * @param view the view
+     */
     public void update_student_data(View view) {
         if (text.equals("Student's Name"))
         {
@@ -185,6 +193,11 @@ public class DisplayData extends AppCompatActivity implements AdapterView.OnItem
         }
     }
 
+    /**
+     * Delete student.
+     *
+     * @param view the view
+     */
     public void delete_student(View view) {
         if (text.equals("Student's Name"))
         {
@@ -229,6 +242,11 @@ public class DisplayData extends AppCompatActivity implements AdapterView.OnItem
         }
     }
 
+    /**
+     * Update vaccines data.
+     *
+     * @param view the view
+     */
     public void update_vaccines_data(View view) {
         if (text.equals("Student's Name"))
         {

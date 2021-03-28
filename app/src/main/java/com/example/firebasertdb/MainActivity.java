@@ -8,6 +8,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+/**
+ * The type Main activity.
+ *
+ * @author Dean David <dd0167@bs.amalnet.k12.il>
+ * @version 1.0
+ * @since 28/03/2021
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
